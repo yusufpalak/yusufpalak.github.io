@@ -1,7 +1,7 @@
 # YUSUF PALAK RESMİ WEB SİTESİ
 
 ## Bu Siteyi Kurmamdaki Amaç Nedir?
-Bu web sitesi kişisel bir sitedir. İçerisinde [Ana Sayfa]() [Hakkımda]() [Portfolyom]() [Sertifikalarım]() [İletişim]() ve [Blog]() isimli sayfalar bulunmaktadır. Bir portfolyo sitesinin üzerine çıkarak aklımda tüm fikirleri bir sayfada geliştirme kararı alarak bu siteyi hazırladım.
+Bu web sitesi kişisel bir sitedir. İçerisinde [Ana Sayfa](https://yusufpalak.github.io/index.html) [Hakkımda](https://yusufpalak.github.io/about.html) [Portfolyom](https://yusufpalak.github.io/portfolio.html) [Sertifikalarım](https://yusufpalak.github.io/certificate.html) [İletişim](https://yusufpalak.github.io/contact.html) ve [Blog](https://yusufpalak.github.io/blog1.html) isimli sayfalar bulunmaktadır. Bir portfolyo sitesinin üzerine çıkarak aklımda tüm fikirleri bir sayfada geliştirme kararı alarak bu siteyi hazırladım.
 
 ## Siteye Nasıl Girebilirsiniz?
 Siteye girmek için dilerseniz arama çubuğuna yusufpalak.github.io yazabilir, dilerseniz de [buraya](https://yusufpalak.github.io/) tıklayarak erişebilirsiniz.
