@@ -166,7 +166,7 @@
                         <ul class="about-list list-unstyled open-sans-font">
                             <li> <span class="title">adım :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Yusuf</span> </li>
                             <li> <span class="title">soyadım :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Palak</span> </li>
-                            <li> <span class="title">yaş :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">20 </span> </li>
+                            <li> <span class="title">yaş :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block"> <div id="myYear"></div> </span> </li>
                             <li> <span class="title">Freelance :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Uygun</span> </li>
                         </ul>
                     </div>
@@ -346,9 +346,9 @@
                             <div class="icon">
                                 <i class="fa fa-graduation-cap"></i>
                             </div>
-                            <span class="time open-sans-font text-uppercase">2022-Devam</span>
-                            <h5 class="poppins-font text-uppercase">İŞ SAĞLIĞI VE GÜVENLİĞİ (AÇIKÖĞRETİM) <span class="place open-sans-font">İSTANBUL ÜNİVERSİTESİ</span></h5>
-                            <p class="open-sans-font">Bilgisayar Programcılığı bölümünden mezun olduktan sonra İstanbul Üniversitesi İkinci Üniversite programı kapsamında sınavsız olarak bu bölümü okumaya başladım.</p>
+                            <span class="time open-sans-font text-uppercase">2023-Devam</span>
+                            <h5 class="poppins-font text-uppercase">YÖNETİM BİLİŞİM SİSTEMLERİ (AÇIKÖĞRETİM) <span class="place open-sans-font">ANADOLU ÜNİVERSİTESİ</span></h5>
+                            <p class="open-sans-font">Bilgisayar Programcılığı bölümünden mezun olduktan sonra DGS ile önlisans mezuniyetimi 2 yıl daha okuyarak lisans mezuniyetime tamamlamak için bu bölüme yerleştim.</p>
                         </li>
                         <li>
                             <div class="icon">
@@ -396,6 +396,14 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/custom.js"></script>
+
+<script>
+    const currentYear=new Date().getFullYear();
+    
+    const year=currentYear-2001;
+
+    document.getElementById('myYear').innerHTML=year;
+</script>
 
 </body>
 
