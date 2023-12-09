@@ -63,7 +63,7 @@ window.onload = function() {
     requestAnimationFrame(update);
     setInterval(placePipes, 1500); //every 1.5 seconds
     document.addEventListener("keydown", moveBird);
-    document.addEventListener("touchstart", moveBird);
+    document.addEventListener("click", moveBird);
 }
 
 function update() {
@@ -147,19 +147,8 @@ function placePipes() {
 }
 
 function moveBird(e) {
-    if (e.type=="keydown" (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX" || e.code == "KeyY")) {
+    if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX" || e.code == "KeyY"|| e.button==0) {
         //jump
-        velocityY = -6;
-
-        //reset game
-        if (gameOver) {
-            bird.y = birdY;
-            pipeArray = [];
-            score = 0;
-            gameOver = false;
-        }
-    }
-    else if (e.type=="touchstart") {
         velocityY = -6;
 
         //reset game
