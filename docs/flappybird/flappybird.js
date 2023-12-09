@@ -66,8 +66,13 @@ window.onload = function() {
     document.addEventListener("click", moveBird);
 }
 
+const targetFPS=30;
+
 function update() {
-    requestAnimationFrame(update);
+    setTimeout(function () {
+        requestAnimationFrame(update);
+    }, 1000 / targetFPS);
+
     if (gameOver) {
         return;
     }
